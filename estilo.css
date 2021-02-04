@@ -1,0 +1,71 @@
+body {
+    background-color: tomato;
+}
+
+h3 {
+    color:black;
+}
+
+#container {
+    display: flex;
+}
+
+#div_contador {
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    justify-content: center;
+    width: 250px;
+    margin: 10em auto 0 20em;
+}
+
+#div_lateral {
+    display: flex;
+
+}
+
+.box_interior {
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgb(255, 59, 24);
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+    margin: 10px;
+    
+}
+
+.box_exterior {
+    float: center;
+    justify-content: center;
+    background-color: rgba(255, 59, 24, 0.534);;
+    width: 100px;
+    height: 115px;
+    border-radius: 3px;
+    margin: 10px;
+
+}
+
+.texto_pequeno {
+    font-family: Helvetica, sans-serif;
+    margin-top: 0;
+    text-align: center;
+}
+
+.espacamento_entre_input_coluna_esquerda {
+    margin: 20px;
+}
+
+.btn {
+    position: flex;
+    height: 50%;
+    width: 50%;
+
+}
+
+
+.controle_label {
+    color:#666;
+}
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário Global</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!--  .............   Coluna esquerda      ...........        -->
+        <div id='div_lateral'>
+            <div name="nome_do_titulo" class="espacamento_entre_input_coluna_esquerda">
+                <label class="controle_label">Nome do relógio<br></label>
+                <input value='' type='text' name="input_nome_relogio"  id="input_nome_relogio">
+            </div>
+
+            <div class="espacamento_entre_input_coluna_esquerda">
+                <label class="controle_label">Calendário<br></label>
+                <input value='dd-mm-yyyy' type='date' name="calendário" id="calendario"><br>
+               <!-- <input value='dd-mm-yyyy' type='date' name="calendário" id="calendario_final">-->
+            </div>
+        </div>
+
+        <!--                Coluna central           -->
+
+    <div name='div-horario' class="colunas" id="div_hora" >
+        <h3 value="" id="titulo"></h3>
+        <h2 id="hora"></h2>
+        <button onclick='iniciar()' class="btn">Iniciar!</button>
+        <button onclick='parar()' class="btn">Stop!</button>
+    </div>
+
+    <div id="div_contador">
+        <h2 id="dias">00</h2>
+        <h2 id="hora">15</h2>
+        <h2 id="minuto">15</h2>
+        <h2 id="segundo">15</h2><br />
+        
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

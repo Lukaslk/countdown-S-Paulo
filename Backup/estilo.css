@@ -1,0 +1,42 @@
+h3 {
+    color:black;
+}
+
+#div_hora {
+    position: absolute;
+    top: 10%;
+    margin-top: -25px; /* e retrocede metade da altura */
+    left: 50%; /* posiciona na metade da tela */
+    margin-left: -100px;
+    background-color: blue;
+    width: 100px;
+}
+
+#div_contador {
+    position: absolute;
+    top: 30%;
+    margin-top: -25px; /* e retrocede metade da altura */
+    left: 50%; /* posiciona na metade da tela */
+    margin-left: -100px;
+    background-color: tomato;
+    width: 100px;
+}
+
+
+.espacamento_entre_input_coluna_esquerda {
+    margin: 20px;
+}
+
+.btn {
+    position: flex;
+    height: 50%;
+    width: 50%;
+
+}
+
+
+.controle_label {
+    color:#666;
+}
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador regressivo - São Paulo</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!--  .............   Coluna esquerda      ...........        -->
+      
+    <div id="container">
+
+        <div id='div_lateral'>
+            <div class="espacamento_entre_input_coluna_esquerda">
+                <label class="controle_label">Calendário<br></label>
+                <input type='date' name="calendário" id="calendario" value=""
+                onchange="calcTempo(this.value)">
+                <br>
+            </div>
+        </div>
+
+        <!--                Coluna central           -->
+
+        <div id="div_contador">
+            <h3>Falta...</h3>
+            <div class="box_exterior">
+                <div class="box_interior"><h2 id="dias"></div>
+                <p class='texto_pequeno'>Dias</p>
+            </div>
+
+            <div class="box_exterior">
+                <div class="box_interior"><h2 id="horas"></h2></div>
+                <p class='texto_pequeno'>horas</p>
+            </div>
+
+            <div class="box_exterior">
+                <div class="box_interior"><h2 id="minutos"></h2></div>
+                <p class='texto_pequeno'>minutos</p>
+            </div>
+
+            <div class="box_exterior">
+                <div class="box_interior"><h2 id="segundos"></h2></div>
+                <p class='texto_pequeno'>Segundos</p> 
+            </div>  
+
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
