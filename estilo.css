@@ -14,8 +14,9 @@ h3 {
 }
 
 #div_contador {
-    flex-wrap: wrap;
-    display: flex;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     height: 50vh;
     width: 50vh;
     margin: 5em auto 0 20em;
