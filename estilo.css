@@ -1,9 +1,12 @@
 body {
-    background-color: tomato;
+    background-color: rgba(126, 228, 246, 0.87);
 }
 
 h3 {
     color:black;
+    align-items: center;
+    justify-content: center;
+    font-family: Calibri light, sans-serif;
 }
 
 #container {
@@ -11,34 +14,28 @@ h3 {
 }
 
 #div_contador {
+    flex-wrap: wrap;
     display: flex;
-    flex-direction:row;
-    position: relative;
-    justify-content: center;
-    width: 250px;
-    margin: 10em auto 0 20em;
-}
-
-#div_lateral {
-    display: flex;
-
+    height: 50vh;
+    width: 50vh;
+    margin: 5em auto 0 20em;
 }
 
 .box_interior {
     display: inline-flex;
     justify-content: center;
-    background-color: rgb(255, 59, 24);
+    background-color: rgba(59, 191, 214, 0.856);
     width: 70px;
     height: 70px;
     border-radius: 3px;
-    margin: 10px;
+    margin: 12px;
     
 }
 
 .box_exterior {
     float: center;
     justify-content: center;
-    background-color: rgba(255, 59, 24, 0.534);;
+    background-color: rgba(59, 191, 214, 0.39);
     width: 100px;
     height: 115px;
     border-radius: 3px;
